@@ -29,6 +29,10 @@ public class Target : MonoBehaviour
         if (Health <= 0f)
         {
             Die();
+
+            GameplayController.instance.EnemyKilled();
+
+            //GameplayController.instance.RestartGame();
         }
     }
    
