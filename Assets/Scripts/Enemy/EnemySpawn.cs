@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class EnemySpawn : MonoBehaviour
 {
-    public GameObject theEnemy;
+  public GameObject theEnemy;
 
     public int enemyCount;
     int xPos;
@@ -27,11 +27,11 @@ public class EnemySpawn : MonoBehaviour
             Vector3 spawnDistance = new Vector3(xPos, 0f, zPos);
             Vector3 spawnpoint = playerPosition.transform.TransformPoint(spawnDistance);
             Instantiate(theEnemy, spawnpoint,playerPosition.transform.rotation);
-            yield return new WaitForSeconds(5);
+            yield return new WaitForSeconds(2);
             enemyCount += 1;
         }
     }
    
 
-
+    
 }
