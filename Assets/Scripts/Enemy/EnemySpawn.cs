@@ -23,7 +23,7 @@ public class EnemySpawn : MonoBehaviour
         while(enemyCount < 10)
         {
             xPos = Random.Range(1, 9);
-            zPos = Random.Range(-15, -30);
+            zPos = Random.Range(-30, -50);
             Vector3 spawnDistance = new Vector3(xPos, 0f, zPos);
             Vector3 spawnpoint = playerPosition.transform.TransformPoint(spawnDistance);
             Instantiate(theEnemy, spawnpoint,playerPosition.transform.rotation);
