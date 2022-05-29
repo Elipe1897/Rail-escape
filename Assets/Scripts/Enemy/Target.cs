@@ -1,8 +1,8 @@
 using UnityEngine;
-using UnityEngine.UI;
 
 public class Target : MonoBehaviour
 {
+<<<<<<< HEAD
     public float Health;
     public float maxHealth;
 
@@ -29,6 +29,9 @@ public class Target : MonoBehaviour
             healthBarUi.SetActive(true);
         }
     }
+=======
+    public float Health = 50f;
+>>>>>>> parent of f957aee (Merge branch 'main' of https://github.com/Elipe1897/Rail-escape)
 
     public void TakeDamage(float amount)
     {
@@ -36,8 +39,11 @@ public class Target : MonoBehaviour
         if (Health <= 0f)
         {
             Die();
+<<<<<<< HEAD
 
             GameplayController.instance.EnemyKilled();
+=======
+>>>>>>> parent of f957aee (Merge branch 'main' of https://github.com/Elipe1897/Rail-escape)
         }
     }
 
@@ -46,6 +52,7 @@ public class Target : MonoBehaviour
         Destroy(gameObject);
     }
 
+<<<<<<< HEAD
    
 
     float CalculateHealth()
@@ -53,5 +60,7 @@ public class Target : MonoBehaviour
         return Health / maxHealth;
     }
 
+=======
+>>>>>>> parent of f957aee (Merge branch 'main' of https://github.com/Elipe1897/Rail-escape)
 
 }

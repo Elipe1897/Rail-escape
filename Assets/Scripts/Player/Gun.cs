@@ -27,6 +27,7 @@ public class Gun : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range)) // if we hit something with the ray it saves the value of the thing it hit and saves it in the hit varible and then in the if statmets it tells what we hit
         {
+            Debug.Log(hit.transform.name);
 
             Target target = hit.transform.GetComponent<Target>(); 
             if(target != null)

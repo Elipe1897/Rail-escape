@@ -5,6 +5,7 @@ using UnityEngine;
 public class EnemyMovement : MonoBehaviour
 {
     public Transform player;
+<<<<<<< HEAD
     public float moveSpeed = 2.5f;
     public float standStill = 0;
     private Rigidbody rb;
@@ -14,11 +15,18 @@ public class EnemyMovement : MonoBehaviour
     public float Distance_;
     public float attackRadius = 3f;
     void Start()
+=======
+    public float moveSpeed = 5f;
+    private Rigidbody rb;
+    
+    private void Start()
+>>>>>>> parent of f957aee (Merge branch 'main' of https://github.com/Elipe1897/Rail-escape)
     {
         rb = GetComponent<Rigidbody>();
     }
-     void Update()
+    private void Update()
     {
+<<<<<<< HEAD
         
         Vector3 PlayerPosition = new Vector3(player.position.x, 2f, player.position.z);
         Distance_ = Vector3.Distance(Players.transform.position, transform.position);
@@ -56,4 +64,17 @@ public class EnemyMovement : MonoBehaviour
         Quaternion lookRotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));
         transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * 5f);
     }
+=======
+        Vector3 pos = Vector3.MoveTowards(transform.position, player.position, moveSpeed * Time.fixedDeltaTime);
+        rb.MovePosition(pos);
+        transform.LookAt(player);
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.transform.tag == "Player")
+        {
+            Destroy(gameObject);
+        }
+    }
+>>>>>>> parent of f957aee (Merge branch 'main' of https://github.com/Elipe1897/Rail-escape)
 }
