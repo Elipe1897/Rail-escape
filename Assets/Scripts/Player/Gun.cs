@@ -1,5 +1,6 @@
 using UnityEngine;
 
+// Elias 
 public class Gun : MonoBehaviour
 {
     public float damage = 10f;
