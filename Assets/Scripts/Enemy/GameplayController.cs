@@ -28,7 +28,7 @@ public class GameplayController : MonoBehaviour
 
     public void RestartGame()
     {
-        Invoke("Restart", 3f);
+        Invoke("Restart", 5f);
     }
 
     void Restart()

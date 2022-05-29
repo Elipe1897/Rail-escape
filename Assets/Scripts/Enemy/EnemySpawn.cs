@@ -24,7 +24,7 @@ public class EnemySpawn : MonoBehaviour
     
     IEnumerator EnemyDrop()
     {
-        while(enemyCount < 100)
+        while(enemyCount < 100000000000000000)
         {
             xPos = Random.Range(1, 9);
             zPos = Random.Range(-15, -30);

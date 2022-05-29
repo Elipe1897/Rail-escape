@@ -6,11 +6,18 @@ public class Target : MonoBehaviour
     public float Health;
     public float maxHealth;
 
+    public static Target instance;
+
+
     public GameObject healthBarUi;
     public Slider slider;
 
      void Start()
     {
+        if (instance == null)
+        {
+            instance = this;
+        }
         Health = maxHealth;
         slider.value = CalculateHealth();
     }
@@ -31,15 +38,15 @@ public class Target : MonoBehaviour
             Die();
 
             GameplayController.instance.EnemyKilled();
-
-            //GameplayController.instance.RestartGame();
         }
     }
-   
+
     void Die()
     {
         Destroy(gameObject);
     }
+
+   
 
     float CalculateHealth()
     {

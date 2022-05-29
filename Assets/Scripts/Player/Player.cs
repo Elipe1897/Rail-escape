@@ -4,27 +4,36 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public float damage = 25f;
-    public GameObject Players;
-    public GameObject Enemy;
-    public float Distance_;
+    public float damage = 5f;
+    public static Player instance;
 
-     void Start()
-    {
-        StartCoroutine(EnemyDamage());
+    public float Health = 50;
 
-    }
-    void Update()
+
+    void Start()
     {
-        Distance_ = Vector3.Distance(Players.transform.position, Enemy.transform.position);
-    }
-    IEnumerator EnemyDamage()
-    {
-        while (Distance_ < 1.5)
+        if(instance == null)
         {
+            instance = this;
+        }
+        
+    }
+    public void Update()
+    {
+        if(Health <= 0)
+        {
+            GameplayController.instance.RestartGame();
+
+        }
+
+    }
+    
+
+    public void DealDamage()
+    {
             Target target = GetComponent<Target>();
             target.TakeDamage(damage);
-            yield return new WaitForSeconds(2);
-        }
+        Health -= 10;
     }
+     
 }
