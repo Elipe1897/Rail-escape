@@ -3,6 +3,7 @@ using UnityEngine;
 public class Target : MonoBehaviour
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     public float Health;
     public float maxHealth;
 
@@ -32,6 +33,9 @@ public class Target : MonoBehaviour
 =======
     public float Health = 50f;
 >>>>>>> parent of f957aee (Merge branch 'main' of https://github.com/Elipe1897/Rail-escape)
+=======
+    public float Health = 50f;
+>>>>>>> parent of f957aee (Merge branch 'main' of https://github.com/Elipe1897/Rail-escape)
 
     public void TakeDamage(float amount)
     {
@@ -40,8 +44,11 @@ public class Target : MonoBehaviour
         {
             Die();
 <<<<<<< HEAD
+<<<<<<< HEAD
 
             GameplayController.instance.EnemyKilled();
+=======
+>>>>>>> parent of f957aee (Merge branch 'main' of https://github.com/Elipe1897/Rail-escape)
 =======
 >>>>>>> parent of f957aee (Merge branch 'main' of https://github.com/Elipe1897/Rail-escape)
         }
@@ -53,6 +60,7 @@ public class Target : MonoBehaviour
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
    
 
     float CalculateHealth()
@@ -60,6 +68,8 @@ public class Target : MonoBehaviour
         return Health / maxHealth;
     }
 
+=======
+>>>>>>> parent of f957aee (Merge branch 'main' of https://github.com/Elipe1897/Rail-escape)
 =======
 >>>>>>> parent of f957aee (Merge branch 'main' of https://github.com/Elipe1897/Rail-escape)
 

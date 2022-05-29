@@ -195,6 +195,7 @@ Transform:
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &336383305
 GameObject:
   m_ObjectHideFlags: 0
@@ -274,6 +275,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 336383305}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> parent of f957aee (Merge branch 'main' of https://github.com/Elipe1897/Rail-escape)
 =======
 >>>>>>> parent of f957aee (Merge branch 'main' of https://github.com/Elipe1897/Rail-escape)
 --- !u!1 &360236393
@@ -432,7 +435,11 @@ Transform:
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &456457662
+=======
+--- !u!1 &508355198
+>>>>>>> parent of f957aee (Merge branch 'main' of https://github.com/Elipe1897/Rail-escape)
 =======
 --- !u!1 &508355198
 >>>>>>> parent of f957aee (Merge branch 'main' of https://github.com/Elipe1897/Rail-escape)
@@ -444,6 +451,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 456457663}
   - component: {fileID: 456457665}
   - component: {fileID: 456457664}
@@ -451,6 +459,8 @@ GameObject:
   m_Name: Background
   m_TagString: Untagged
 =======
+=======
+>>>>>>> parent of f957aee (Merge branch 'main' of https://github.com/Elipe1897/Rail-escape)
   - component: {fileID: 508355199}
   - component: {fileID: 508355203}
   - component: {fileID: 508355202}
@@ -459,14 +469,22 @@ GameObject:
   m_Layer: 0
   m_Name: Gun
   m_TagString: Gun
+<<<<<<< HEAD
+>>>>>>> parent of f957aee (Merge branch 'main' of https://github.com/Elipe1897/Rail-escape)
+=======
 >>>>>>> parent of f957aee (Merge branch 'main' of https://github.com/Elipe1897/Rail-escape)
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!224 &456457663
 RectTransform:
+=======
+--- !u!4 &508355199
+Transform:
+>>>>>>> parent of f957aee (Merge branch 'main' of https://github.com/Elipe1897/Rail-escape)
 =======
 --- !u!4 &508355199
 Transform:
@@ -475,6 +493,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 456457662}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
@@ -566,6 +585,8 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &503902710
 =======
+=======
+>>>>>>> parent of f957aee (Merge branch 'main' of https://github.com/Elipe1897/Rail-escape)
   m_GameObject: {fileID: 508355198}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.5029993, y: -0.039683525, z: 0.43400002}
@@ -577,12 +598,16 @@ RectTransform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &508355200
+<<<<<<< HEAD
+>>>>>>> parent of f957aee (Merge branch 'main' of https://github.com/Elipe1897/Rail-escape)
+=======
 >>>>>>> parent of f957aee (Merge branch 'main' of https://github.com/Elipe1897/Rail-escape)
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 503902707}
   m_Enabled: 1
@@ -745,6 +770,8 @@ MonoBehaviour:
 --- !u!222 &505412808
 CanvasRenderer:
 =======
+=======
+>>>>>>> parent of f957aee (Merge branch 'main' of https://github.com/Elipe1897/Rail-escape)
   m_GameObject: {fileID: 508355198}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -776,6 +803,7 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 505412805}
   m_CullTransparentMesh: 1
@@ -870,6 +898,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
 =======
+=======
+>>>>>>> parent of f957aee (Merge branch 'main' of https://github.com/Elipe1897/Rail-escape)
   m_GameObject: {fileID: 508355198}
   m_Enabled: 1
   m_CastShadows: 1
@@ -913,6 +943,9 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 508355198}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
+>>>>>>> parent of f957aee (Merge branch 'main' of https://github.com/Elipe1897/Rail-escape)
+=======
 >>>>>>> parent of f957aee (Merge branch 'main' of https://github.com/Elipe1897/Rail-escape)
 --- !u!1 &614756570
 GameObject:
@@ -5813,6 +5846,7 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &738889895
 GameObject:
   m_ObjectHideFlags: 0
@@ -5892,6 +5926,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> parent of f957aee (Merge branch 'main' of https://github.com/Elipe1897/Rail-escape)
 =======
 >>>>>>> parent of f957aee (Merge branch 'main' of https://github.com/Elipe1897/Rail-escape)
 --- !u!1 &821055000
@@ -10908,6 +10944,7 @@ Transform:
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0.355, y: -95.452, z: -0.426}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1183694772
 GameObject:
   m_ObjectHideFlags: 0
@@ -11016,6 +11053,8 @@ MonoBehaviour:
   fpsCam: {fileID: 135589009}
   muzzleFlash: {fileID: 614756573}
   ImpactEffect: {fileID: 883772651}
+=======
+>>>>>>> parent of f957aee (Merge branch 'main' of https://github.com/Elipe1897/Rail-escape)
 =======
 >>>>>>> parent of f957aee (Merge branch 'main' of https://github.com/Elipe1897/Rail-escape)
 --- !u!1 &1465893331
@@ -11578,7 +11617,11 @@ Light:
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_BoundingSphereOverride: {x: 4e-45, y: 6e-45, z: 1, w: 0.0000000017598927}
+=======
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+>>>>>>> parent of f957aee (Merge branch 'main' of https://github.com/Elipe1897/Rail-escape)
 =======
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
 >>>>>>> parent of f957aee (Merge branch 'main' of https://github.com/Elipe1897/Rail-escape)

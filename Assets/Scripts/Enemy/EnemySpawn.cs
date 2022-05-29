@@ -21,7 +21,11 @@ public class EnemySpawn : MonoBehaviour
     IEnumerator EnemyDrop()
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         while(enemyCount < 100000000000000000)
+=======
+        while(enemyCount < 10)
+>>>>>>> parent of f957aee (Merge branch 'main' of https://github.com/Elipe1897/Rail-escape)
 =======
         while(enemyCount < 10)
 >>>>>>> parent of f957aee (Merge branch 'main' of https://github.com/Elipe1897/Rail-escape)
