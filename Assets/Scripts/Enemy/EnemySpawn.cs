@@ -26,7 +26,7 @@ public class EnemySpawn : MonoBehaviour
     {
         while(enemyCount < 100000000000000000)
         {
-            xPos = Random.Range(1, 9);
+            xPos = Random.Range(-5, 15);
             zPos = Random.Range(-15, -30);
             Vector3 spawnDistance = new Vector3(xPos, 0f, zPos);
             Vector3 spawnpoint = playerPosition.transform.TransformPoint(spawnDistance);
