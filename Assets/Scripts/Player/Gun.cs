@@ -9,6 +9,8 @@ public class Gun : MonoBehaviour
     public ParticleSystem muzzleFlash;
     public GameObject ImpactEffect;
 
+    public AudioSource shootsound;
+
     // Start is called before the first frame update
 
 
@@ -18,6 +20,9 @@ public class Gun : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Shoot();
+
+            shootsound.Play();
+           
         }
     }
         void Shoot()
