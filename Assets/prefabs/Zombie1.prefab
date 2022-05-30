@@ -1968,12 +1968,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93dc0ee7ac89b2c459098ad1bb55d6fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 507728154587727012, guid: 7ce45c9a21b75af4e850210133f05863, type: 3}
+  player: {fileID: 5697833342216450418, guid: 7ce45c9a21b75af4e850210133f05863, type: 3}
   moveSpeed: 5
   standStill: 0
   anim: {fileID: 7389507112651452681}
   timer: 0
-  Players: {fileID: 507728154587727032, guid: 7ce45c9a21b75af4e850210133f05863, type: 3}
+  Players: {fileID: 5697833343692981598, guid: 7ce45c9a21b75af4e850210133f05863, type: 3}
   Distance_: 0
   attackRadius: 4
 --- !u!54 &2077778131206238664
