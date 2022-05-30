@@ -21,6 +21,9 @@ public class Gun : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Shoot();
+
+            shootsound.Play();
+           
         }
     }
         void Shoot()
@@ -40,5 +43,5 @@ public class Gun : MonoBehaviour
             Destroy(inpactGo, 2f);
         }
 
-    }
+      }
 }

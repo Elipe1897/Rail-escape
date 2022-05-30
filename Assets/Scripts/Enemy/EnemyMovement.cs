@@ -6,7 +6,7 @@ using UnityEngine;
 public class EnemyMovement : MonoBehaviour
 {
     public Transform player;
-    public float moveSpeed = 10f;
+    public float moveSpeed = 2.5f;
     public float standStill = 0;
     private Rigidbody rb;
     public Animator anim;
