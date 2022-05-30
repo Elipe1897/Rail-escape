@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-// Leo s
 public class FPSCounter : MonoBehaviour
 {
     public TextMeshProUGUI FpsText;

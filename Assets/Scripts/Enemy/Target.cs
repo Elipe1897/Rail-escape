@@ -1,7 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-//Elias
 public class Target : MonoBehaviour
 {
     public float Health;

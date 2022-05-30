@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-// leo s
 public class StartScript : MonoBehaviour
 {
     public bool startGame = false;
