@@ -20,7 +20,15 @@ public class EnemySpawn : MonoBehaviour
     }
    public IEnumerator EnemyDrop()
     {
+<<<<<<< HEAD
+<<<<<<< HEAD
+        while(enemyCount < 100000000000000000)
+=======
         while(enemyCount < 10)
+>>>>>>> parent of f957aee (Merge branch 'main' of https://github.com/Elipe1897/Rail-escape)
+=======
+        while(enemyCount < 10)
+>>>>>>> parent of f957aee (Merge branch 'main' of https://github.com/Elipe1897/Rail-escape)
         {
             xPos = Random.Range(1, 9);
             zPos = Random.Range(-15, -30);
