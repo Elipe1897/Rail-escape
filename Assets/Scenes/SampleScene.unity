@@ -154,6 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   theEnemy: {fileID: 4493914613880827488, guid: 6dc4cf4496348884d8ee27743ae38562, type: 3}
   enemyCount: 0
+  isSpawned: 0
   playerPosition: {fileID: 1962586417}
 --- !u!4 &415981759
 Transform:

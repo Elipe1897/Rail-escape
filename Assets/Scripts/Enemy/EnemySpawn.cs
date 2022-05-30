@@ -10,7 +10,7 @@ public class EnemySpawn : MonoBehaviour
     public int enemyCount;
     int xPos;
     int zPos;
-   
+
 
     public Transform playerPosition;
 
@@ -18,7 +18,7 @@ public class EnemySpawn : MonoBehaviour
     {
         StartCoroutine(EnemyDrop());
     }
-    IEnumerator EnemyDrop()
+   public IEnumerator EnemyDrop()
     {
         while(enemyCount < 10)
         {
