@@ -2,6 +2,7 @@ using UnityEngine.Audio;
 using System;
 using UnityEngine;
 
+// Elias 
 public class AudioManager : MonoBehaviour
 {
     public Sound[] sounds;
